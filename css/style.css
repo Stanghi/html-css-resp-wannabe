@@ -135,4 +135,20 @@ img {
 
  @media screen and (max-width: 480px){
 
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col, 
+    .steps .col, 
+    .why-us .col-right,
+    .why-us .col-left{
+        width: 100%; 
+        margin-bottom: 40px;
+    }
+
+    .lessons .col p{
+        padding: 0 30px;
+    }
  }
