@@ -141,15 +141,28 @@ img {
     }
 
     .lessons .col, 
-    .steps .col, 
-    .why-us .col-right,
-    .why-us .col-left{
+    .steps .col,
+    .why-us .col-right{
         width: 100%; 
-        margin-bottom: 40px;
     }
 
-    .lessons .col p{
+    .why-us .col-left{
+        width: 100%;
+        padding: 0 40px;
+        margin-bottom: 75px;
+    }
+
+    .card{
+        margin-bottom: 60px;
+    }
+
+    .why-us h2{
         padding: 0 30px;
+    }
+
+    .lessons .col p, 
+    .steps .col{
+        padding: 0 50px;
     }
  }
 
