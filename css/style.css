@@ -140,9 +140,7 @@ img {
         align-items: center;
     }
 
-    .lessons .col, 
-    .steps .col,
-    .why-us .col-right{
+    .row .col{
         width: 100%; 
     }
 
